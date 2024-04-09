@@ -1,5 +1,5 @@
 <?php
-    class myjwt{
+    class MyJWT{
         private $secret;
         public function __construct(string $secret){
             $this ->secret = $secret;
